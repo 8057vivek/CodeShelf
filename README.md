@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="./53391d1a-7fc9-4c56-ad26-1233fa24bb47.png" height="120" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">📚 CodeShelf - The Ultimate eBook Store</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="https://codebookshelf.netlify.app/"><img src="https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=netlify" /></a>
+  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Styling-TailwindCSS-blue?style=for-the-badge&logo=tailwind-css" />
+  <img src="https://img.shields.io/badge/Backend-JSON%20Server-brightgreen?style=for-the-badge&logo=json" />
+  <img src="https://img.shields.io/badge/Auth-JSON%20Auth-orange?style=for-the-badge&logo=auth0" />
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**CodeShelf** is a modern and responsive **eBook shopping platform** built using **React** and **Tailwind CSS**, supported by a **mock backend using JSON Server**. It provides users with the ability to **browse**, **search**, **add to cart**, **place orders**, and view their **order history**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔗 [Visit Live Site »](https://codebookshelf.netlify.app/)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features at a Glance
 
-### `npm run build`
+✅ **Home Page**  
+- Hero section with call to action  
+- Highlights of featured eBooks  
+- “Best Seller” badge & rating system  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ **Product Listings**  
+- List of all books with pagination  
+- Each book includes: image, title, price, stars, and Add to Cart
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✅ **Search Functionality** 🔍  
+- Search bar filters books in real-time by title  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✅ **Cart System** 🛒  
+- Add/remove books from cart  
+- Total cart amount  
+- Proceed to checkout  
 
-### `npm run eject`
+✅ **Authentication** 🔐  
+- Simple Login / Signup system  
+- Login as **Guest** available to explore quickly  
+> **Username:** `guest@codeshelf.com`  
+> **Password:** `123456`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✅ **Order Gateway**  
+- Order now button creates a new order  
+- Order History page for logged-in users  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✅ **Mobile Responsive** 📱  
+- Smooth layout on phones, tablets & desktops  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📸 Screenshots
 
-## Learn More
+<details>
+<summary>📌 Click to Expand</summary>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🖥️ Home Page & Featured Books
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="./53391d1a-7fc9-4c56-ad26-1233fa24bb47.png" alt="Home Page" width="100%"/>
 
-### Code Splitting
+### 📚 All eBooks Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img src="./1357289e-0e5c-437f-95e3-6310ff646d53.png" alt="Books Page" width="100%"/>
 
-### Analyzing the Bundle Size
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🛠️ Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TailwindCSS-0EA5E9?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/JSON_Server-333?style=for-the-badge&logo=json&logoColor=white" />
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</p>
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📁 Folder Structure (Simplified)
 
-### Deployment
+```
+CodeShelf/
+├── public/
+├── src/
+│ ├── components/ # Navbar, Footer, Cards
+│ ├── pages/ # Home, Products, Orders, Login
+│ ├── context/ # Global state with React Context
+│ ├── services/ # API handlers for books, orders
+│ └── App.jsx
+├── db.json # Fake backend using JSON Server
+├── package.json
+└── tailwind.config.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧪 Getting Started
+
+### Prerequisites
+
+- Node.js installed
+- JSON Server (`npm install -g json-server`)
+
+### Run Locally
+
+```bash
+# Clone the project
+git clone https://github.com/your-username/codeshelf
+
+# Install dependencies
+npm install
+
+# Run fake backend
+json-server --watch db.json --port 5000
+
+# Start React app
+npm start
